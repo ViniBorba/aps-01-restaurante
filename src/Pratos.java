@@ -21,6 +21,7 @@ public class Pratos {
 		this.precoDoPrato = precoDoPrato;
 	}
 	
+	
 	public void setDescricaoDoPrato(String descricaoDoPrato){
 		this.descricaoDoPrato = descricaoDoPrato;
 	}
