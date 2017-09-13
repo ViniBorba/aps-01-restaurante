@@ -1,12 +1,14 @@
 
 public class Restaurante {
-
-	Pratos[] pratosDoRestaurante = new Pratos [2];
 	
-	//metodo mostrar o cardápio
-	public Pratos[] mostrarCardapio(){
-		return pratosDoRestaurante;
+	Restaurante(){
+		
+		Pedido novoPedido;
+		novoPedido = new Pedido();
 	}
 	
-	
+	//metodo mostrar o cardápio
+	public void  mostrarCardapio(){
+		Pratos[] pratosDoRestaurante = new Pratos [2];
+	}
 }
