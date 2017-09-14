@@ -8,6 +8,8 @@ public class Pratos {
 	private double precoDoPrato;
 	private String descricaoDoPrato;
 	
+	/*
+	
 	Pratos(){
 		System.out.print("Informe o valor do prato: ");
 		precoDoPrato = scanner.nextDouble();
@@ -15,6 +17,8 @@ public class Pratos {
 		System.out.print("Informe o nome do Prato: ");
 		nomeDoPrato = scanner.nextLine();
 	}
+	
+	*/
 	
 	//metodo set, que vai alterar o preco e a descricao dos pratos.
 	public void setPrecoDoPrato(double precoDoPrato){

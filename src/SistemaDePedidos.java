@@ -6,7 +6,20 @@ public class SistemaDePedidos {
 	 */
 	public static void main(String[] args) {
 		
-		Pedido novoPedido1 = new Pedido();
+		Pratos pratoUm = new Pratos();
+		Pratos pratoDois = new Pratos();
+		Pratos pratoTres = new Pratos();
+		
+		
+		//Contrução dos pratos
+		pratoUm.setDescricaoDoPrato("arroz com feiujão");
+		pratoUm.setPrecoDoPrato(15.0);
+		
+		pratoDois.setDescricaoDoPrato("Doce de Cana");
+		pratoDois.setPrecoDoPrato(20.0);
+		
+		pratoTres.setDescricaoDoPrato("Sopa de galinha");
+		pratoTres.setPrecoDoPrato(25.0);
 		
 		
 		
